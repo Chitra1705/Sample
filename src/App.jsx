@@ -13,7 +13,7 @@ const App = () => {
     <div>
       <BrowserRouter>
       <Routes>
-       <Route path='/form' element={<Form/>}/>
+       <Route path='/' element={<Form/>}/>
         <Route path='/val' element={<Formvalidation/>}></Route>
         <Route path='/crud' element={<Crud/>}></Route> 
         <Route path='/list' element={<List/>}></Route> 
